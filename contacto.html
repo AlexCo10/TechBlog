@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Evolución de la Web</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Banner fijo en la parte superior -->
+    <div class="banner">
+        <h1>Contacto - Evolución de la Web</h1>
+    </div>
+
+    <!-- Botonera de navegación -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html" class="nav-button">Inicio</a></li>
+            <li><a href="articulos.html" class="nav-button">Artículos</a></li>
+            <li><a href="recursos.html" class="nav-button">Recursos</a></li>
+            <li><a href="contacto.html" class="nav-button">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Formulario de Contacto</h2>
+        <form action="" method="POST">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" required>
+
+            <label for="correo">Correo electrónico</label>
+            <input type="email" name="correo" id="correo" placeholder="ejemplo@mail.com" required>
+
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" id="edad" placeholder="Tu edad">
+
+            <label for="tema">Tema</label>
+            <select name="tema" id="tema">
+                <option value="web-1">Web 1.0</option>
+                <option value="web-2">Web 2.0</option>
+                <option value="web-3">Web 3.0</option>
+            </select>
+
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje" placeholder="Escribe tu mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Enlaces útiles:</p>
+        <ul>
+            <li><a href="https://github.com" target="_blank">GitHub</a></li>
+            <li><a href="https://developer.mozilla.org/es/" target="_blank">MDN Web Docs</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
